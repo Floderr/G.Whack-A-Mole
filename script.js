@@ -11,7 +11,7 @@ function createMole() {
   setTimeout(() => {
     mole.remove();
     createMole();
-  }, 2000);
+  }, 1200);
 }
 
 function whackMole() {
